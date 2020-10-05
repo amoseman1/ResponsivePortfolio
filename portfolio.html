@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amy Moseman | Portfolio</title>
+    <!--added bootstrap link-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <!--google fonts link-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!--this is my link to a personal icon in the navbar-->
+    <script
+      src="https://kit.fontawesome.com/4c7cb131c6.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--added css link-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="index.html"
+          ><strong>Amy Moseman</strong></a
+        >
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Bio <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <!--added anchor tag links-->
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--making my header one row that takes up all 12 columns-->
+    <header class="row">
+      <div class="col-lg-12">
+        <h1>Portfolio</h1>
+      </div>
+    </header>
+
+    <!--adding my cards in rows and columns(=12) by nesting divs-->
+    <container class="row" id="row1">
+      <!--first row of three-->
+      <div class="col-md-3"></div>
+      <!--empty column-->
+      <div class="col-md-3">
+        <!--first column of two-->
+        <div class="card" style="width: 18rem">
+          <img
+            src="assets/_Users_amymoseman_Desktop_Class_Homework_amoseman1.github.io_index.html (1) copy.png"
+            height="400px;"
+            width="200px;"
+            class="card-img-top"
+            alt="Horiseon webpage"
+          />
+          <div class="card-body">
+            <h5 class="card-title"><strong>Project 1</strong></h5>
+            <p class="card-text">This was my first code refractor assignment</p>
+            <a href="https://amoseman1.github.io" class="btn btn-primary"
+              >View My Work</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <!--second column of two- row1 (6+6=12)-->
+        <div class="card" style="width: 18rem">
+          <img
+            src="assets/priscilla-du-preez-nNMBa7Y1Ymk-unsplash.jpg"
+            class="card-img-top"
+            alt="collaborating on a computer"
+          />
+          <div class="card-body">
+            <h5 class="card-title"><strong>Project 2</strong></h5>
+            <p class="card-text">This will be a javascript project</p>
+            <a href="#" class="btn btn-primary">Soon to come!</a>
+          </div>
+          <div class="col-md-3"></div>
+          <!--empty column-->
+        </div>
+      </div>
+    </container>
+
+    <container class="row">
+      <div class="col-md-3"></div>
+      <!--empty column-->
+      <div class="col-md-3">
+        <!--first column of two (6+6=12)-->
+
+        <div class="card" style="width: 18rem">
+          <img
+            src="assets/dan-nelson-ah-HeguOe9k-unsplash.jpg"
+            class="card-img-top"
+            alt="locked phone"
+          />
+          <div class="card-body">
+            <h5 class="card-title"><strong>Project 3</strong></h5>
+            <p class="card-text">I will be designing a password generator</p>
+            <a href="#" class="btn btn-primary">Soon to Come!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <!--second column of two- row1 (6+6=12)-->
+        <div class="card" style="width: 18rem">
+          <img
+            src="assets/christopher-robin-ebbinghaus-pgSkeh0yl8o-unsplash.jpg"
+            class="card-img-top"
+            alt="code on screen of computer"
+          />
+          <div class="card-body">
+            <h5 class="card-title"><strong>Project 4</strong></h5>
+            <p class="card-text">Another javascript project</p>
+            <a href="#" class="btn btn-primary">Soon to come!</a>
+          </div>
+          <div class="col-md-3"></div>
+          <!--empty column-->
+        </div>
+      </div>
+    </container>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

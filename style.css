@@ -1,0 +1,64 @@
+/*These style the nav bar on each html page*/
+nav p {
+  font-size: 20px;
+  color: maroon; /* why wont this work?, need overide on bootstrap code?*/
+}
+
+nav a {
+  font-size: 15px;
+ }
+
+ /*this changes the color of the added icon in the navbar*/
+nav i { color:  rgb(124, 160, 124);
+}
+
+/*This styles the contact info container on contact.html page*/
+form .form-group {
+  font-size: 20px;
+}
+
+ .contact { background-color: rgb(207, 205, 205);
+  color: rgb(80, 77, 77);
+  font-family: "Concert One", cursive; 
+  width: 960px;
+  margin-left: 30px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left:20px;
+  padding-right:20px;
+  border: 5px;
+  border-style: outset;
+}
+
+form h1 {margin-left: 20px;}
+
+/*changes all the .htmls*/
+body { background-color: rgb(202, 233, 202)}
+
+
+/*styling for my portfolio sheet*/
+container { margin-left: auto;
+    margin-right : auto;
+    margin-top: 30px;
+    color: rgb(168, 165, 165);
+    font-family: Nunito', sans-serif;
+  
+    
+}
+
+header div h1 { color: rgb(168, 165, 165);
+    text-align: center;
+    font-size: 50px;
+    padding:35px;
+    font-family:  'Nunito', sans-serif;
+}
+
+container h5, p { font-family:'Nunito', sans-serif;
+font-size: 25 px;}
+
+/*these are changes on my index.html file*/
+
+.container { font-weight: bold;
+font-size:20px;}
