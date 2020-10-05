@@ -14,8 +14,8 @@ My footer didn't work as a container, but I will fix that for the future as well
 <href="https://ResponsivePortfolio.github.io>
 
 **_Screenshots of each linked page:_**
-<img src="assets/\_Users_amymoseman_Desktop_Class_Homework_ResponsivePortfolio_portfolio.html.png/>
+<img src="\_Users_amymoseman_Desktop_Class_Homework_ResponsivePortfolio_portfolio.html.png/>
 
-<img src="assets/Screen Shot 2020-10-04 at 8.26.28 PM.png/>
+<img src="Screen Shot 2020-10-04 at 8.26.28 PM.png/>
 
-<img src="assets/Screen Shot 2020-10-04 at 8.26.52 PM.png/>
+<img src="Screen Shot 2020-10-04 at 8.26.52 PM.png/>
