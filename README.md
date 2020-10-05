@@ -11,7 +11,7 @@ I wasn't able to get my About page to be centered like I had hoped, I will work 
 My footer didn't work as a container, but I will fix that for the future as well I did get my Github link to work, which will be relevant and useful for employeement.
 
 **_URL for deployed webpage:_**
-<href=https://amoseman1.github.io/ResponsivePortfolio/index.html>
+<href=https://amoseman1.github.io/ResponsivePortfolio/>
 
 **_Screenshots of each linked page:_**
 <img src="assets/_Users_amymoseman_Desktop_Class_Homework_ResponsivePortfolio_portfolio.html.png"/>
