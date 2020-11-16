@@ -1,0 +1,55 @@
+body {
+  background-image: url(../assets/yellow.jpeg) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#navList {
+  font-size: 50px;
+  font-family: "Amatic SC", cursive !important;
+}
+
+form .form-group {
+  font-size: 20px;
+}
+
+.contact {
+  background-color: rgb(207, 205, 205);
+  color: rgb(80, 77, 77);
+  /* font-family: "Concert One", cursive; */
+  font-family: "Amatic SC";
+  font-size: 25px;
+  width: 600px;
+  margin-left: 200px;
+  /* margin-right: auto; */
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px;
+  border-radius: 10%;
+  border-style: outset;
+}
+
+form h1 {
+  /* margin-left: 20px; */
+  text-align: center;
+  /* font-family: "Amatic SC"; */
+  font-family: "Rock Salt", cursive;
+}
+form p {
+  text-align: center;
+  font-size: 25px;
+}
+
+div label {
+  font-size: 25px;
+}
+
+#submitBtn {
+  font-size: 30px;
+  background-color: rgb(245, 238, 197) !important;
+  color: rgb(80, 77, 77) !important;
+  border-color: rgb(245, 238, 197) !important;
+}

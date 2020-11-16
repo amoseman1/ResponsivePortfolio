@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Amy Moseman | About</title>
-    <!--added bootstrap link-->
+    <title>Amy Moseman | Dev</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -13,97 +12,46 @@
     />
     <script
       src="https://kit.fontawesome.com/4c7cb131c6.js"
-      crossorigin="anonymous"
-    ></script>
-    <!--added css link-->
-    <link rel="stylesheet" href="./style.css" />
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/homestyle.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/css/uikit.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Rock+Salt&display=swap" rel="stylesheet">
   </head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarTogglerDemo01"
-        aria-controls="navbarTogglerDemo01"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <a class="navbar-brand" href="./index.html"
-          ><strong>Amy Moseman</strong></a
-        >
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="./index.html"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
+ <body>
+  
 
-          <li class="nav-item">
-            <!--added anchor tag links-->
-            <a class="nav-link" href="./index.html">Bio</a>
-          </li>
-
-          <li class="nav-item">
-            <!--added anchor tag links-->
-            <a class="nav-link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <!--horizontal card on bootstrap-->
-
-    <div class="card mb-3" id="about-card" style="max-width: 960px">
-      <div class="row">
-        <!-- <div class="col-md-2"></div> -->
-        <!--empty column to center content-->
-        <div class="col-md-4">
-          <img
-            src="assets/IMG_0505 copy.JPG"
-            class="card-img"
-            alt="Amy black and white"
-          />
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">About ME!</h5>
-            <p class="card-text">
-              Hi everybody! I'm Amy, even though auto-correct constantly wants
-              to make my name "any". I'm originally from Bloomington, IN. After
-              college, I moved to Key Largo, FL and lived the island life for 5
-              years. I've been in Colorado and the Salida/Buena Vista area since
-              2014. I just bought a home here, so am I a local yet? I've spent
-              most of my life in the hospitality industry working in bars and
-              restaurants. I love meeting people and having a unique work
-              experience everyday, it will be a challenging transition to a
-              computer oriented job. I used to be a raft guide but have
-              transitioned into a ACA certified whitewater instructor, and work
-              with a non-profit called ElevateHer that educates middle school
-              girls through outdoor education. My full time job is working in
-              the tap room of a brewery in Poncha Springs, CO, called Elevation
-              Beer Company. When I'm not being a work-aholic, my partner and our
-              new pup, Loki are playing in the mountains. I love to whitewater
-              raft, whitewater SUP, mountain bike, hike, snowboard, back-country
-              ski, and go scuba-diving (not in Colorado though, I have to visit
-              the ocean every couple months to get my fix of sand and
-              saltwater). I also love dabbling in photography and cooking all
-              the recipes I can get my hands on!
-            </p>
+   <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+     <div class="uk-position-relative">
+      <img src="./assets/calisunset.jpg"" alt="california coast sunset">
+       <div class="uk-position-top">
+          <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+              <div class="uk-navbar-left">
+                  <ul class="uk-navbar-nav">
+                      <li class="uk-active"><a id="navList" href="./index.html">Home</a></li>
+                      <li><a id="navList" href="./portfolio.html">Projects</a></li>
+                      <li><a id="navList" href="./contact.html">Contact </a>
+                        <li><a id="navList" href="assets/amyresume.pdf" target="_blank">Resume </a> </li>
+                  </ul>
+              </div> 
+           
+           </nav> 
+       </div>
+       
+       
+       <!-- <div class="wrapper"> -->
+         <h3>Amy Moseman</h3>   
+         <div class="media">
+           <ul>
+             <a target="_blank" href="https://www.facebook.com/Amoseman18/"><i id="icons" class="fab fa-facebook"></i></a>
+             <a target="_blank" href="https://github.com/amoseman1"><i id ="icons" class="fab fa-github"></i></a>
+             <a target="_blank" href="https://www.linkedin.com/in/amy-moseman-7867a9158"><i id="icons" class="fab fa-linkedin"></i></a>
+            </ul> 
           </div>
-        </div>
-        <!-- <div class="col-md-2"></div> -->
-        <!-- empty column for centering content -->
-      </div>
-    </div>
-
+          
+     </div>
+   </nav>
     <!--added javascript and jquery links-->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -120,18 +68,8 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit-icons.min.js"></script>
 
-    <!--footer goes here-->
-    <footer class="footer mt-auto py-3">
-      <div class="container">
-        <span class="text-muted">
-          <a href="https://www.facebook.com">Facebook</a> <br />
-          <!--this will be updated in the future to a link-->
-          <a href="#">Instagram</a><br />
-          <!--this will be updated in the future to a link-->
-          <a href="https://github.com/amoseman1">Github</a>
-        </span>
-      </div>
-    </footer>
   </body>
 </html>

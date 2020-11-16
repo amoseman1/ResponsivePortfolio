@@ -1,16 +1,4 @@
-/*These style the nav bar on each html page*/
-nav p {
-  font-size: 20px;
-  color: maroon; /* why wont this work?, need overide on bootstrap code?*/
-}
 
-nav a {
-  font-size: 15px;
- }
-
- /*this changes the color of the added icon in the navbar*/
-nav i { color:  rgb(124, 160, 124);
-}
 
 /*This styles the contact info container on contact.html page*/
 form .form-group {
@@ -34,8 +22,7 @@ form .form-group {
 
 form h1 {margin-left: 20px;}
 
-/*changes all the .htmls*/
-body { background-color: rgb(202, 233, 202)}
+
 
 
 /*styling for my portfolio sheet*/
@@ -60,5 +47,4 @@ font-size: 25 px;}
 
 /*these are changes on my index.html file*/
 
-.container { font-weight: bold;
-font-size:20px;}
+

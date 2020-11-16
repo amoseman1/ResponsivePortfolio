@@ -1,0 +1,39 @@
+body {
+  background: no-repeat center;
+  background-image: url(../assets/calisunset.jpg);
+  background-size: cover;
+}
+
+h3 {
+  font-size: 65px !important;
+  font-weight: bold !important;
+  /* font-family: 'Amatic SC', cursive; */
+  font-family: "Rock Salt", cursive !important;
+  margin-left: 100px !important;
+  margin-bottom: 30px !important;
+  color: rgb(245, 238, 197) !important;
+}
+
+.media {
+  display: inline-block;
+  font-size: 40px;
+  margin-left: 240px;
+}
+
+#navList {
+  font-size: 50px;
+  font-family: "Amatic SC", cursive !important;
+}
+
+#icons {
+  color: rgb(245, 238, 197);
+  border-radius: 50%;
+}
+
+h1 {
+  color: rgb(245, 238, 197) !important;
+  font-size: 30px !important;
+  font-family: "Rock Salt", cursive !important;
+  margin-left: 100px !important;
+  padding: 0px !important;
+}
