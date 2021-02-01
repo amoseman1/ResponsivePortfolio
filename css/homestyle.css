@@ -1,13 +1,15 @@
 body {
-  background: no-repeat center;
   background-image: url(../assets/calisunset.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
+  height: 100vh;
 }
 
 h3 {
   font-size: 65px !important;
   font-weight: bold !important;
-  /* font-family: 'Amatic SC', cursive; */
   font-family: "Rock Salt", cursive !important;
   margin-left: 100px !important;
   margin-bottom: 30px !important;
@@ -15,9 +17,23 @@ h3 {
 }
 
 .media {
-  display: inline-block;
+  /* display: inline-block !important; */
+  float: right;
   font-size: 40px;
   margin-left: 240px;
+}
+nav {
+  float: clear;
+}
+
+.media h1 {
+  float: clear;
+  font-size: 40px !important;
+  font-weight: bold !important;
+  font-family: "Amatic SC", cursive !important;
+  /* margin-left: 100px !important;
+  margin-bottom: 30px !important; */
+  color: rgb(245, 238, 197) !important;
 }
 
 #navList {

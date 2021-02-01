@@ -1,7 +1,10 @@
 body {
-  background-image: url(../assets/yellow.jpeg) !important;
+  background-image: url(../assets/yellow.jpeg);
+  background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
+  height: 100vh;
 }
 
 #navList {

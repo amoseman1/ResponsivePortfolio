@@ -1,13 +1,18 @@
+body {
+  background-image: url(../assets/yellow.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
 container { margin-left: auto;
     margin-right : auto;
     margin-top: 30px;
     color: rgb(168, 165, 165);
     font-family: Nunito', sans-serif;
   }
-
-body {
-  background-image: url(../assets/yellow.jpeg);
-}
 
 #navList {
   font-size: 50px;
