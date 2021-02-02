@@ -1,10 +1,15 @@
 body {
-  background-image: url(../assets/yellow.jpeg);
+  /* background-image: url(../assets/yellow.jpeg);
   background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed;
   background-size: cover;
-  height: 100vh;
+  height: 100vh; */ 
+  background: url(../assets/yellow.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 container { margin-left: auto;
@@ -72,4 +77,16 @@ ul {
     font-size: 40px !important;
     color: rgb(245, 238, 197) !important;
    padding:20px;
+}
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; }
 }
